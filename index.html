@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Design Build Grow</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.15.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.15.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.15.0/firebase-performance-compat.js"></script>
+    <!--
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--=============== CSS ===============-->
+    <!--==Fav-icon=========================================================-->
+    <link rel="shortcut icon" href="j.png"/>
+
+
+  </head>
+  <body>
+
+
+
+
+
+
+    <body>
+      <!--==================== HEADER ====================-->
+      <header>
+        <div class="container header">
+          <a href="#home_section" class="logo"><img src="Design Build Grow.svg" alt="logo" /></a>
+          <nav class="desktop-menu mobile-hidden">
+            <ul>
+              <li><a href="#home_section">Home</a></li>
+              <li><a href="#about_section">About</a></li>
+              <li><a href="#project">Portfolio</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#meeting">Set a Meeting</a></li>
+              <li><a href="#main-Footer">Contact us</a></li>
+            </ul>
+          </nav>
+          <div id="trigger-menu" class="menu-icon desktop-hidden">
+            <i class="bx bx-menu"></i>
+          </div>
+
+          <!--==================== Navbar ====================-->
+        </div>
+      </header>
+      <div id="menu-mobile-container">
+        <div class="dark-part"></div>
+        <nav id="mobile-menu" class="menu mobile">
+          <ul>
+            <li><a href="#home_section">Home</a></li>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#meeting">Set a Meeting</a></li>
+            <li><a href="#main-Footer">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--==================== Main ====================-->
+
+      <main>
+
+
+
+
+
+
+        <!--==================== Hero ====================-->
+        <section
+          id="home_section"
+          class="section flex-desktop flex-row-reverse container"
+        >
+          <div class="img pop-animation">
+            <img  class = "Heroimage" src="images/immy.gif" alt="hero image"/>
+    </div>
+
+          <div class="description" id= "hero_message" >
+
+            <h1 class="title">Breathtaking  layouts</h1>
+            <h1 class="title">Tailored development</h1>
+            <h1 class="title">Streamlined marketing</h1>
+            <p class="paragraph">
+              We are a team of Professional Designers/Developers and Digital Marketers, focusing on elevating your online presence.  We believe that creating a strong online presence comes from three key phases, The Design Phase the Build Phase and the Grow Phase. Not matter what phase your business is in or what you’re looking for we will be here to assist.
+            </p>
+            <button class="primary-btn"><a href="#meeting">Set a Meeting</a></button>
+          </div>
+
+
+  </div>
+
+        </section>
+
+        <!--==================== About ====================-->
+
+        <section id="about_section" class="section flex-desktop container">
+          <div class="img img-center pop-animation">
+            <img src="about.gif" alt="about image" />
+          </div>
+          <div class="description">
+
+
+            <h2 class="title">We focus on Accuracy 🎯</h2>
+
+            <p class="paragraph">
+              The design phase is where we determine what the look and feel of the website would be. This would include a colour scheme that matches the business colours and a website structure that incorporates the business primary goals. Once this stage has been completed we would know exactly what the website would look like.
+
+            </p>
+            <p class="paragraph">
+              The build phase is the most time consuming phase of the three phases but is actually the most simple. Once a design has been completed and we have worked through a layout you are happy with all that is left to do is to put it in action. During this process we will be providing updates on the process of the website and a reasonable timeline on when you could expect items to be completed.
+
+            </p>
+            <p class="paragraph">
+              The Grow phase is extremely important and is often overlooked now that a website is live and completed we need to focus on achieving your websites desired purpose. This might include selling products, increasing sign ups or gathering leads. No matter what your goals are  we have a range of different strategies we can use to help your business expand its reach.
+            </p>
+
+          </div>
+        </section>
+
+
+
+  <!--Portfolio !-->
+
+  <section id="project" class= "bg-section">
+
+        <!--heading------------->
+        <div class="project-heading">
+
+                <h2 class="title">Our Projects️</h2>
+        </div>
+
+
+        <!--filter-------------->
+        <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="all">All</li>
+
+            <li class="list" data-filter="design">Website Design</li>
+            <li class="list" data-filter="web">Live Website</li>
+
+        </ul>
+
+        <!--container------------>
+        <div class="project-container">
+
+            <!--box-1--(about-app)----------->
+            <a href="SkiResort/Skiindex.html" class="project-box web" data-lightbox="work">
+                <img src="images/law.png" alt="work">
+            </a>
+
+            <!--box-2---(about-website)---------->
+            <a href="SkyDiving/skyindex.html" class="project-box web" data-lightbox="work">
+                <img src="images/Skydive.png" alt="work">
+            </a>
+
+            <!--box-3--(about-ai)----------->
+            <a href="Appland/appindex.html" class="project-box web" data-lightbox="work">
+                <img src="images/App.png" alt="work">
+            </a>
+
+            <!--box-4---(about-design)---------->
+            <a href="images/golfmain.png" class="project-box design" data-lightbox="work">
+                <img src="images/golfpage.png" alt="work">
+            </a>
+
+            <!--box-5---(about-design)---------->
+            <a href="images/Group5.png" class="project-box design" data-lightbox="work">
+                <img src="images/nft1.png" alt="work">
+            </a>
+
+            <!--box-6---(about-app)---------->
+            <a href="images/Design.png" class="project-box design" data-lightbox="work">
+                <img src="images/Predesign.png" alt="work">
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+        <!--==Using JQuery=================================-->
+        <script src="js/JQuery.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script type="text/javascript">
+
+        /*--for-filter-menu---------------------------------*/
+            $(document).on('click','.project-filter li',function(){
+                $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+            });
+
+        /*--for-project/work-filter-------------------------*/
+        $(document).ready(function(){
+            $('.list').click(function(){
+                const value = $(this).attr('data-filter');
+                if(value == 'all'){
+                    $('.project-box').show('1000');
+                }
+                else{
+                    $('.project-box').not('.'+value).hide('1000');
+                    $('.project-box').filter('.'+value).show('1000');
+                }
+            });
+        });
+
+        </script>
+
+        <div class="project-heading-cards" id ="Services">
+
+                <h2 class="title">Our Services</h2>
+        </div>
+
+
+  <!-- XXX: cards  -->
+  <section class = "outsidesection"id = "Services">
+
+
+
+
+
+  <div class="maincard">
+
+        <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>Web Design</h2>
+          <p> We provide beautiful layouts for your website using trusted design techniques proven to increase user retention for your business. We use customised design techniques for your website helping your business stand out from the competition.
+
+  </p>
+          <a href="#meeting">Inquire Now</a></div>
+        </div>
+
+      </div>
+      <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>Website Development</h2>
+        <p> We focus on bringing your specialised designs to life, we work on ensuring your website has all the features you need to succeed online. We will also set your website up free hosting provider that does not charge expensive monthly subscriptions.
+  </p>
+  <a href="#meeting">Inquire Now</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="card">
+    <div class="box">
+      <div class="content">
+        <h2>Website Growth</h2>
+        <p> Website Growth is a service that focuses on SEO and SEM to help businesses increase their online presence and attract more customers. Our team creates a customized plan to improve your website's search engine rankings and visibility, driving more traffic to your site and helping you reach your business goals.
+  </p>
+  <a href="#meeting">Inquire Now</a>
+      </div>
+    </div>
+
+
+      </div>
+  </section>
+
+  <div class="project-heading-cards" id = "meeting">
+
+          <h2 class="title">Set a meeting with us</h2>
+  </div>
+
+         <!-- Calendly inline widget begin -->
+         <div class="calendly-inline-widget" data-url="https://calendly.com/enquiries-336/discovery-meeting-with-design-build-grow?primary_color=2c7eea" style="min-width:320px;height:730px;"></div>
+
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+
+
+      <!--==================== Footer ====================-->
+      <footer id = "main-Footer">
+
+
+
+            <ul class = "social_icon">
+            <li> <a href="mailto:designbuildgrowenquiries@gmail.com">Send us an Email    <ion-icon id ="mailfooter" name="mail-outline"></ion-icon></a></li>
+
+          </footer>
+      <div id="gotoup" aria-label="gotoup"><i class="bx bx-chevron-up"></i></div>
+
+      <!--===== GSAP =====-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      <!--==================== Main JavaScript File ====================-->
+      <script src="public/js/main.js"></script>
+
+  </body>
+</html>
